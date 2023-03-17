@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    display: flex;
+    background-color: #0A22F4;
+    max-width: 1920px;
+    max-height: 1280px;
+    padding-left: 50px;
+    padding-top: 200px;
+}
+
+
+.phone{
+    display: inline;   
+    display: flex;
+    align-items: center;
+}
+
+.phone-img{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.number{
+    color: #FFFFFF;
+    padding-right: 30px;
+}
+
+.gmail{
+    display: inline;   
+    display: flex;
+    align-items: center;
+}
+
+.gmail-img{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.gmail-p{
+    color: #FFFFFF;
+    padding-left: 15px;
+}
+
+
+.n-g{
+    display: flex;
+    padding-top: 30px;
+}
+
+.map{
+    border-radius: 25px;
+    max-width: 463px;
+    max-height: 197px;
+}
+
+.contact-p{
+    max-width: 400px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.contact-h{
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+input{
+    background-color:#0A22F4;
+    border: none;
+}
+
+label{
+    color: #FFFFFF;
+}
+
+.form{
+    margin-left: 500px;
+    margin-top: 200px;
+    gap: 30px;
+}
+
+form{
+    padding-bottom: 30px;
+}
+
+.button{
+     color: black;
+     background-color: #FFFFFF;
+     border-radius: 25px; 
+     padding: 15px 25px;
+     display: inline;
+     margin-left: 250px;
+}
+
+.last-div{
+    display: flex;
+    align-items: flex-end;
+    margin-left: -800px;
+    padding-top: -500px;
+}
+
+.div4,
+.div3{
+   display: flex;   
+}
+
+.heart-div{
+    padding: 7px;
+    background-color: #FFFFFF;
+    border-radius: 60px;
+    display: flex;
+}
+
+.made,
+.it{
+    padding: 7px;
+    color: #FFFFFF;
+}
+ 
+.right{
+    padding-bottom: 15px;
+    color: #FFFFFF;
+    margin-top: 550px;
+}
+
+
+
+    
