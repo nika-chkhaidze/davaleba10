@@ -27,6 +27,7 @@ p{
     max-width: 463px;
     max-height: 197px;
     border-radius: 15px;
+    box-shadow: -10px 10px #ffffff;
 }
 
 .contact-p{
