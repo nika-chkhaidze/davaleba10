@@ -1,156 +1,105 @@
 *{
-    margin: 0;
     padding: 0;
-    
+    margin: 0;
+}
+
+body{
+    background-color: #0A22F4;
 }
 
 footer{
-    display: flex;
-    background-color: #0A22F4;
-    max-width: 1920px;
-    padding-left: 50px;
-    padding-top: 100px;
-    overflow-x: hidden;
-}
-
-
-.phone{
-    display: inline;   
-    display: flex;
-    align-items: center;
-}
-
-.phone-img{
-    background-color: #FFFFFF;
-    border-radius: 50px;
-    padding: 20px;
-    margin-right: 10px;
-}
-
-.number{
-    color: #FFFFFF;
-    padding-right: 30px;
-}
-
-.gmail{
-    display: inline;   
-    display: flex;
-    align-items: center;
-}
-
-.gmail-img{
-    background-color: #FFFFFF;
-    border-radius: 50px;
-    padding: 20px;
-}
-
-.gmail-p{
-    color: #FFFFFF;
-    padding-left: 15px;
-}
-
-
-.n-g{
-    display: flex;
-    padding-top: 30px;
-}
-
-.map{
-    border-radius: 25px;
-    max-width: 463px;
-    max-height: 197px;
-}
-
-.contact-p{
-    max-width: 400px;
-    color: #FFFFFF;
-    padding-bottom: 40px;
-}
-
-.contact-h{
-    color: #FFFFFF;
-    padding-bottom: 30px;
-}
-
-input{
-    background-color:#0A22F4;
-    border: none;
-}
-
-label{
-    color: #FFFFFF;
-}
-
-.form{
-    display: inline-block;
-    padding-left: 500px;
     margin-top: 200px;
-    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 form{
-    padding-bottom: 30px;
+    color: #ffffff;
 }
 
-.button{
-     color: black;
-     background-color: #FFFFFF;
-     border-radius: 25px; 
-     padding: 15px 25px;
-     display: inline;
-     margin-left: 250px;
+h1,
+p{
+    color: #ffffff;
 }
 
-
-
-.div4,
-.div3{
-   display: flex;  
-   flex-wrap:nowrap;
-   align-items: flex-end;
-   margin-left: -1000px;
+.map{
+    max-width: 463px;
+    max-height: 197px;
+    border-radius: 15px;
 }
 
-.last-div{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    margin-left: 1500px;
+.contact-p{
+    max-width: 300px;
+    padding-top: 20px;
 }
 
-.form1,
-.div1{
-    margin-bottom: 200px;
+.phone-img,
+.gmail-img{
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 20px;   
+    margin-right: 10px; 
 }
 
-.right{
-    color: #FFFFFF;
-    padding-bottom: 10px;
-    display: flex;
-}
-.made,
-.it{
-    color: #FFFFFF;
-    display: flex;
-    padding-bottom: 10px;
+.nm{
+   display: flex;
+   align-items: center;
+   padding-top: 50px;
 }
 
-.made{
+.phone-number{
     padding-right: 10px;
 }
 
-.it{
-    padding-left: 10px;
-    padding-right: 20px;
+.made-with{
+    display: flex;
+    align-items: center;
+}
+
+.div3{
+    display: flex;
+    margin-top: 80px;
+}
+    
+.smart-web-logo{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.all-rights{
+    padding-left: 20px;
+    padding-top: 80px;
+}
+
+.div1{
+    padding-left: 200px;
+}
+
+.div2{
+    padding-right: 100px ;
+    margin-top: 200px;
 }
 
 
+.map-div{
+    padding-top: 50px;
+}
 
+input{
+    border: none;
+    background-color: #0A22F4;
+}
 
+.button{
+     background-color: #ffffff;
+     border-radius: 25px;
+     color: black;
+     max-width: fit-content;
+     padding: 15px;
+     margin-left: 300px;
+}
 
-
-
-
-
-
-    
+form{
+    padding-bottom: 50px;
+}
