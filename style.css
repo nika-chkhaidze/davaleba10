@@ -1,15 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 footer{
     display: flex;
     background-color: #0A22F4;
     max-width: 1920px;
-    max-height: 1280px;
     padding-left: 50px;
-    padding-top: 200px;
+    padding-top: 100px;
+    overflow-x: hidden;
 }
 
 
@@ -81,7 +82,8 @@ label{
 }
 
 .form{
-    margin-left: 500px;
+    display: inline-block;
+    padding-left: 500px;
     margin-top: 200px;
     gap: 30px;
 }
@@ -99,36 +101,55 @@ form{
      margin-left: 250px;
 }
 
-.last-div{
-    display: flex;
-    align-items: flex-end;
-    margin-left: -800px;
-    padding-top: -500px;
-}
+
 
 .div4,
 .div3{
-   display: flex;   
+   display: flex;  
+   flex-wrap:nowrap;
+   align-items: flex-end;
+   margin-left: -1000px;
 }
 
-.heart-div{
-    padding: 7px;
-    background-color: #FFFFFF;
-    border-radius: 60px;
+.last-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-left: 1500px;
+}
+
+.form1,
+.div1{
+    margin-bottom: 200px;
+}
+
+.right{
+    color: #FFFFFF;
+    padding-bottom: 10px;
     display: flex;
 }
-
 .made,
 .it{
-    padding: 7px;
     color: #FFFFFF;
+    display: flex;
+    padding-bottom: 10px;
 }
- 
-.right{
-    padding-bottom: 15px;
-    color: #FFFFFF;
-    margin-top: 550px;
+
+.made{
+    padding-right: 10px;
 }
+
+.it{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
 
 
 
